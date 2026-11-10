@@ -1,0 +1,27 @@
+name: "Walkie-Talkie Receiver"
+version: "2.0.1"
+slug: "walkie_receiver"
+description: "Принимает звук с ESP32-рации и играет через общий аудио Home Assistant. Без pip/компиляции - только готовые Alpine-пакеты, для надёжной локальной сборки на слабом ARM."
+arch:
+  - aarch64
+  - amd64
+  - armv7
+init: false
+audio: true
+watchdog: "tcp://[HOST]:[PORT:8765]"
+ports:
+  8765/tcp: 8765
+ports_description:
+  8765/tcp: "TCP-порт для приёма звука с ESP32 (сырой PCM, без HTTP/WebSocket)"
+options:
+  mqtt_host: "core-mosquitto"
+  mqtt_port: 1883
+  mqtt_user: ""
+  mqtt_password: ""
+  sample_rate: 16000
+schema:
+  mqtt_host: str
+  mqtt_port: port
+  mqtt_user: str
+  mqtt_password: password
+  sample_rate: int
