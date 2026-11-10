@@ -1,0 +1,531 @@
+views:
+  - title: Управление
+    path: scripts
+    cards:
+      - type: entities
+        entities:
+          - entity: sensor.quest_status
+            name: Статус квеста
+            icon: mdi:nintendo-game-boy
+            secondary_info: last-changed
+      - type: entities
+        entities:
+          - entity: button.nodered_script6_reset_quest
+            name: Сброс квеста
+          - entity: button.nodered_script1_full_on_light
+            name: ВКЛ весь свет
+          - entity: button.nodered_script2_full_off_light
+            name: ВЫКЛ весь свет
+          - entity: button.nodered_script3_start_magnets
+            name: ВКЛ магниты для сборки
+          - entity: button.nodered_script4_zapusk_players
+            name: Запуск игроков
+          - entity: button.nodered_script5_start_and_screamer
+            name: Старт квеста
+          - entity: button.nodered_script20_end_quest
+            name: Завершение квеста
+        title: Общее управление
+        state_color: false
+        show_header_toggle: false
+      - type: entities
+        entities:
+          - entity: switch.magnet3
+            name: Входная дверь магнит
+            icon: mdi:door
+          - entity: sensor.clock1
+            name: Часы 1, 9 часов
+            icon: mdi:clock-time-five-outline
+            secondary_info: last-changed
+          - entity: sensor.clock2
+            name: Часы 1, 0 минут
+            icon: mdi:clock-time-five-outline
+            secondary_info: last-changed
+          - entity: sensor.clock3
+            name: Часы 2, 1 час
+            icon: mdi:clock-time-five-outline
+            secondary_info: last-changed
+          - entity: sensor.clock4
+            name: Часы 2, 20 минут
+            icon: mdi:clock-time-five-outline
+            secondary_info: last-changed
+          - entity: sensor.clock5
+            name: Часы 3, 7 часов
+            icon: mdi:clock-time-five-outline
+            secondary_info: last-changed
+          - entity: sensor.clock6
+            name: Часы 3, 55 минут
+            icon: mdi:clock-time-five-outline
+            secondary_info: last-changed
+          - entity: sensor.sensor_9
+            name: Приставка
+            icon: mdi:gamepad-variant-outline
+            secondary_info: last-changed
+          - entity: switch.magnet18
+            name: Ролетта, ВЫКЛ - Поднять, ВКЛ - Опустить
+            icon: mdi:paper-roll-outline
+        title: 1 комната
+        show_header_toggle: false
+      - type: entities
+        entities:
+          - entity: sensor.switch1
+            icon: mdi:electric-switch
+            name: Правый переключатель  №1
+            secondary_info: last-changed
+          - entity: sensor.switch2
+            icon: mdi:electric-switch
+            name: Правый переключатель  №2
+            secondary_info: last-changed
+          - entity: sensor.switch3
+            icon: mdi:electric-switch
+            name: Левый переключатель  №1
+            secondary_info: last-changed
+          - entity: sensor.switch4
+            icon: mdi:electric-switch
+            name: Левый переключатель  №1
+            secondary_info: last-changed
+          - entity: sensor.toys_1
+            name: Позиция №1
+            icon: mdi:teddy-bear
+            secondary_info: last-changed
+          - entity: sensor.toys_2
+            name: Позиция №2
+            icon: mdi:teddy-bear
+            secondary_info: last-changed
+          - entity: sensor.toys_3
+            icon: mdi:teddy-bear
+            name: Позиция №3
+            secondary_info: last-changed
+          - entity: sensor.toys_4
+            icon: mdi:teddy-bear
+            name: Позиция №4
+            secondary_info: last-changed
+          - entity: sensor.nomer
+            secondary_info: last-changed
+            icon: mdi:phone-classic
+            name: Номер
+          - entity: sensor.sensor_7
+            name: Переключатель УФ
+            icon: mdi:lightbulb-cfl
+            secondary_info: last-changed
+          - entity: switch.magnet16
+            name: УФ управление
+            icon: mdi:lightbulb-cfl
+          - entity: button.uv_button_reset
+            name: Разблокировка переключателя
+            icon: mdi:lock-open-variant
+          - entity: sensor.uv_satus
+            name: Состояние выключателя
+            icon: mdi:electric-switch
+          - entity: switch.magnet8
+            name: Окно магнит
+            icon: mdi:lock-open-outline
+          - entity: switch.magnet4
+            name: Шкаф
+            icon: mdi:lock-open-outline
+          - entity: switch.magnet7
+            name: Лаз в тоннель
+            icon: mdi:lock-open-outline
+          - entity: button.toys_script1_offled
+            name: ВЫКЛ светодиод на телефоне
+          - entity: light.lightk21
+            name: Основной свет 2к
+          - entity: button.quest_skip35
+            name: Переход в 3к
+        title: 2 комната
+        show_header_toggle: false
+      - type: entities
+        entities:
+          - entity: button.nodered_script11_acter_3k_end
+            name: ВЫКЛ свет после актёра
+          - entity: button.nodered_script12_acter_3k_lights_on
+            name: ВКЛ свет + запись после актёра
+          - entity: sensor.sensor_8
+            name: Датчик в картине
+            icon: mdi:palette
+            secondary_info: last-changed
+          - entity: switch.magnet11
+            name: Актёрская дверь 3к магнит
+            icon: mdi:door
+          - entity: switch.magnet12
+            icon: mdi:lock-open-outline
+            name: Камин
+          - entity: light.lightk31
+            name: Основной свет 3к
+          - entity: light.lightk32
+            name: 'Лампочка '
+        title: 3 комната
+        show_header_toggle: false
+      - type: entities
+        entities:
+          - entity: button.pwm_script5_flashing4k_off
+            name: ВЫКЛ мигание света в 4к + ВКЛ свет
+          - entity: button.nodered_script16_light_off_4k
+            name: ВЫКЛ свет в 4к после актёра + запись
+          - entity: button.nodered_script15_light_on_4k
+            name: ВКЛ свет в 4к
+          - entity: sensor.sensor_2
+            name: Нож
+            icon: mdi:knife-military
+            secondary_info: last-changed
+          - entity: sensor.sensor_1
+            name: Красная кнопка
+            icon: mdi:radiobox-marked
+            secondary_info: last-changed
+          - entity: switch.magnet13
+            name: Актёрская дверь 4к магнит
+            icon: mdi:door
+          - entity: light.lightk41
+            name: Основной свет 4к
+        title: 4 комнта
+        show_header_toggle: false
+      - type: entities
+        entities:
+          - entity: button.pwm_script2_flashing_3k_4k_on
+            name: ВКЛ мигание 3к-4к-5к
+          - entity: button.pwm_script3_flashing_3k_4k_off
+            name: ВЫКЛ мигание 3к-4к-5к
+          - entity: sensor.paint1_status
+            name: Позиция №1 картины
+            icon: mdi:brush-outline
+            secondary_info: last-changed
+          - entity: sensor.paint2_status
+            name: Позиция №2 картины
+            icon: mdi:brush-outline
+            secondary_info: last-changed
+          - entity: button.pwm_script6_flashinglaz_on
+            name: ВКЛ мигание лаз
+          - entity: button.pwm_script7_flashinglaz_off
+            name: ВЫКЛ мигание лаз
+          - entity: button.nodered_script19_players_exit
+            name: Выход игроков
+          - entity: button.nodered_script20_end_quest
+            name: Завершение квеста
+        title: 5 комната
+        show_header_toggle: false
+      - type: media-control
+        entity: media_player.music_player_daemon
+      - type: media-control
+        entity: media_player.vlc_telnet
+    badges: []
+    type: sidebar
+    subview: false
+  - type: sections
+    max_columns: 4
+    title: Подсказки и записи
+    path: voices
+    sections:
+      - type: grid
+        cards:
+          - type: entities
+            entities:
+              - entity: script.voice_track29
+                icon: mdi:waveform
+                name: Тиканье часов
+              - entity: script.voice_track7
+                name: Загадка с лампами
+                icon: mdi:waveform
+              - entity: script.voice_track14
+                name: Загадка с крючком
+                icon: mdi:waveform
+              - entity: script.voice_track26
+                name: Рельефные буквы 1
+                icon: mdi:waveform
+              - entity: script.voice_track24
+                name: Рельефные буквы 2
+                icon: mdi:waveform
+              - entity: script.voice_track11
+                name: Игрушки
+                icon: mdi:waveform
+              - entity: script.voice_track5
+                name: Боль - книга (азбука)
+                icon: mdi:waveform
+              - entity: script.voice_track23
+                icon: mdi:waveform
+                name: Сказка телефон
+              - entity: script.voice_track22
+                icon: mdi:waveform
+                name: Как решить справочник
+              - entity: script.voice_track1
+                name: Позвоните 2549
+                icon: mdi:waveform
+              - entity: script.voice_track6
+                name: Как включить свет в шкафу
+                icon: mdi:waveform
+              - entity: script.voice_track25
+                name: Картинки телевизор
+                icon: mdi:waveform
+              - entity: script.voice_track21
+                name: Телепередача - сейф 1
+                icon: mdi:waveform
+              - entity: script.voice_track4
+                name: Телепередача - сейф 3 (4178)
+                icon: mdi:waveform
+              - entity: script.voice_track13
+                name: Спички - камин (картина)
+                icon: mdi:waveform
+              - entity: script.voice_track27
+                name: Камин
+                icon: mdi:waveform
+              - entity: script.voice_track20
+                icon: mdi:waveform
+                name: Решение загадки со стержнем
+              - entity: script.voice_track28
+                name: Шаг назад
+                icon: mdi:waveform
+            title: Подсказки
+      - type: grid
+        cards:
+          - type: entities
+            entities:
+              - entity: button.quest_skip30
+                icon: mdi:puzzle
+                name: Загадка с часами
+              - entity: button.quest_skip31
+                icon: mdi:puzzle
+                name: Загадка с приставкой
+              - entity: button.quest_skip32
+                icon: mdi:puzzle
+                name: Загадка с переключателями
+              - entity: button.quest_skip33
+                icon: mdi:puzzle
+                name: Загадка с игрушками
+              - entity: button.quest_skip34
+                icon: mdi:puzzle
+                name: Загадка с телефоном
+              - entity: button.quest_skip35
+                icon: mdi:puzzle
+                name: Загадка с УФ
+              - entity: button.quest_skip36
+                icon: mdi:puzzle
+                name: Загадка с камином
+              - entity: button.quest_skip37
+                icon: mdi:puzzle
+                name: Загадка с ножом
+              - entity: button.quest_skip38
+                icon: mdi:puzzle
+                name: Загадка с кнопкой
+              - entity: button.quest_skip39
+                icon: mdi:puzzle
+                name: Загадка с картинами
+            title: Пропуск загадок
+      - type: grid
+        cards:
+          - type: media-control
+            entity: media_player.music_player_daemon
+          - type: media-control
+            entity: media_player.vlc_telnet
+      - type: grid
+        cards:
+          - type: entities
+            entities:
+              - entity: script.voice_track12
+                icon: mdi:waveform
+                name: Инициализация системы
+              - entity: script.voice_track10
+                icon: mdi:waveform
+                name: Звонок в службу спасения
+              - entity: script.voice_track9
+                icon: mdi:waveform
+                name: Дом...
+              - entity: script.voice_track15
+                icon: mdi:waveform
+                name: Отчёт полиции №1
+              - entity: script.voice_track16
+                icon: mdi:waveform
+                name: Отчёт полиции №2
+              - entity: script.voice_track17
+                icon: mdi:waveform
+                name: Отчёт полиции №3
+              - entity: script.voice_track18
+                icon: mdi:waveform
+                name: Папа...
+              - entity: script.voice_track8
+                name: Глеб...
+                icon: mdi:waveform
+            title: Сюжетные записи
+    cards: []
+  - title: Магниты
+    cards:
+      - type: entities
+        entities:
+          - entity: switch.magnet3
+            name: 1к входная дверь
+          - entity: switch.magnet2
+            name: 1к полка замок
+          - entity: switch.magnet1
+            name: 1к проход в тоннель
+          - entity: switch.magnet4
+            name: 2к шкаф
+          - entity: switch.magnet5
+            name: 2к картина
+          - entity: switch.magnet6
+            name: 2к полка
+          - entity: switch.magnet7
+            name: 2к проход в тоннель
+          - entity: switch.magnet8
+            name: 2к переход в 3к
+          - entity: switch.magnet16
+            name: УФ лампа
+          - entity: switch.magnet10
+            name: 2к тайник
+          - entity: switch.magnet11
+            name: 3к переход в тоннель
+          - entity: switch.magnet12
+            name: 3к камин
+          - entity: switch.magnet13
+            name: 4к переход в тоннель
+          - entity: switch.magnet14
+            name: 4к тайник в полу
+          - entity: switch.magnet15
+            name: 5к дверь
+          - entity: switch.magnet9
+            name: 5к короб
+          - entity: switch.magnet17
+            name: Стробоскоп
+          - entity: switch.magnet18
+            name: Ролетта, ВЫКЛ - Поднять, ВКЛ - Опустить
+    type: masonry
+  - title: Освещение
+    path: light
+    cards:
+      - type: entities
+        entities:
+          - type: custom:slider-entity-row
+            entity: light.light10
+            name: 1к Слева
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light4
+            name: 1к Справа
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light12
+            name: 2к Лаз, красный свет
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light3
+            name: 2к Свет
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light1
+            name: 2к Светильник справа
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light11
+            name: 2к Светильник слева
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light8
+            name: 2к Свет за картиной
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light14
+            name: 2к Шкаф Свет
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light9
+            name: 2к Свет за зеркалом
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light15
+            name: 3к Свет
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light5
+            name: 3к Свет в ящике
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light7
+            name: 3к Лампочка на потолке
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light6
+            name: 4к Свет
+            toggle: true
+          - type: custom:slider-entity-row
+            entity: light.light13
+            name: 5к Свет
+            toggle: true
+    type: masonry
+  - title: Датчики
+    path: sensors
+    cards:
+      - type: entities
+        entities:
+          - entity: sensor.sensor_10
+            name: 1 часы - часовая
+          - entity: sensor.sensor_11
+            name: 1 часы - минутная
+          - entity: sensor.sensor_12
+            name: 2 часы - часовая
+          - entity: sensor.sensor_13
+            name: 2 часы - минутная
+          - entity: sensor.sensor_14
+            name: 3 часы - часовая
+          - entity: sensor.sensor_15
+            name: 3 часы - минутная
+          - entity: sensor.sensor_9
+            name: Приставка
+          - entity: sensor.sensor_3
+            name: Правый переключатель 1
+          - entity: sensor.sensor_4
+            name: Правый переключатель 2
+          - entity: sensor.sensor_5
+            name: Левый переключатель 1
+          - entity: sensor.sensor_6
+            name: Левый переключатель 2
+          - entity: sensor.sensor_7
+            name: Переключатель УФ
+          - entity: sensor.sensor_8
+            name: Картина в 3к
+          - entity: sensor.sensor_2
+            name: Нож
+          - entity: sensor.sensor_1
+            name: Красная кнопка
+    type: masonry
+  - type: sections
+    max_columns: 4
+    title: 'Все команды '
+    path: unknown
+    sections:
+      - type: grid
+        cards:
+          - type: entities
+            entities:
+              - entity: button.nodered_script6_reset_quest
+                name: Сброс квеста
+              - entity: button.nodered_script1_full_on_light
+                name: ВКЛ весь свет
+              - entity: button.nodered_script2_full_off_light
+                name: ВЫКЛ весь свет
+              - entity: button.nodered_script3_start_magnets
+                name: ВКЛ магниты для сборки
+              - entity: button.nodered_script4_zapusk_players
+                name: Запуск игроков
+              - entity: button.nodered_script5_start_and_screamer
+                name: Старт квеста
+              - entity: button.toys_script1_offled
+                name: ВЫКЛ светодиод на телефоне
+              - entity: button.nodered_script11_acter_3k_end
+                name: ВЫКЛ свет после актёра
+              - entity: button.nodered_script12_acter_3k_lights_on
+                name: ВКЛ свет + запись
+              - entity: button.pwm_script4_flashing4k_on
+                name: ВКЛ мигание света в 4к
+              - entity: button.pwm_script5_flashing4k_off
+                name: ВЫКЛ мигание света в 4к
+              - entity: button.nodered_script15_light_on_4k
+                name: ВКЛ свет в 4к
+              - entity: button.nodered_script16_light_off_4k
+                name: ВЫКЛ свет в 4к
+              - entity: button.pwm_script2_flashing_3k_4k_on
+                name: ВКЛ мигание 3к-4к-5к
+              - entity: button.pwm_script3_flashing_3k_4k_off
+                name: ВЫКЛ мигание 3к-4к-5к
+              - entity: button.nodered_script21_345lights
+                name: ВКЛ свет в 3, 4, 5 комнате
+              - entity: button.nodered_script19_players_exit
+                name: Выход игроков
+              - entity: button.nodered_script20_end_quest
+                name: Завершение квеста
+            title: Управление

@@ -1,0 +1,1729 @@
+music_1_0_play:
+  alias: Music_1_0_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_1_0.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_1_0.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_1_1_play:
+  alias: Music_1_1_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_1_1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_1_1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_1_2_play:
+  alias: Music_1_2_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_1_2.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_1_2.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_2_2_play:
+  alias: Music_2_2_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_2_2.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_2_2.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_3_1_play:
+  alias: Music_3_1_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_3_1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_3_1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_4_1_play:
+  alias: Music_4_1_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_4_1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_4_1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_5_1_play:
+  alias: Music_5_1_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_5_1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_5_1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_5_2_play:
+  alias: Music_5_2_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_5_2.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_5_2.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.8
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+music_final_play:
+  alias: Music_Final_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.music_player_daemon
+    data:
+      media_content_id: media-source://media_source/local/mpd/media/Music_final.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Music_final.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/media
+  - action: media_player.repeat_set
+    metadata: {}
+    data:
+      repeat: one
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.8
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+sound_1_1_play:
+  alias: Sound_1_1_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.4
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_1_1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Sound_1_1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+sound_1_1_2_play:
+  alias: Sound_1_1_2_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.33
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_1_1_2.wav
+      media_content_type: audio/x-wav
+    metadata:
+      title: Sound_1_1_2.wav
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+sound_1_2_play:
+  alias: Sound_1_2_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.25
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_1_2.wav
+      media_content_type: audio/x-wav
+    metadata:
+      title: Sound_1_2.wav
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+sound_2_1_play:
+  alias: Sound_2_1_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.43
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_2_1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Sound_2_1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+sound_2_2_play:
+  alias: Sound_2_2_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.3
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_2_2.wav
+      media_content_type: audio/x-wav
+    metadata:
+      title: Sound_2_2.wav
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+sound_3_1_play:
+  alias: Sound_3_1_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.4
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_3_1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: Sound_3_1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+sound_cello_play:
+  alias: Sound_cello_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.4
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_cello.wav
+      media_content_type: audio/x-wav
+    metadata:
+      title: Sound_cello.wav
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+sound_scream_play:
+  alias: Sound_scream_Play
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 1
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/sounds/Sound_scream.wav
+      media_content_type: audio/x-wav
+    metadata:
+      title: Sound_scream.wav
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/sounds
+  description: ''
+stop_vlc:
+  alias: VLC_stop
+  sequence:
+  - action: media_player.media_stop
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  description: ''
+mpd_pause:
+  alias: MPD_pause
+  sequence:
+  - action: media_player.media_pause
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+mpd_play_media:
+  alias: MPD_play_media
+  sequence:
+  - action: media_player.media_play
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+mpd_stop:
+  alias: MPD_stop
+  sequence:
+  - action: media_player.media_stop
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+mpd_vol_max:
+  alias: MPD_vol_max
+  sequence:
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.75
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+mpd_vol_50:
+  alias: MPD_vol_50
+  sequence:
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.music_player_daemon
+  description: ''
+voice_track1:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track1.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track1.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track1
+voice_track2:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track2.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track2.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track2
+voice_track3:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track3.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track3.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track3
+voice_track4:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track4.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track4.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track4
+voice_track5:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track5.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track5.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track5
+voice_track6:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track6.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track6.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track6
+voice_track7:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track7.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track7.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track7
+voice_track8:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track8.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track8.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track8
+voice_track9:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track9.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track9.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track9
+voice_track10:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track10.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track10.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  description: ''
+  alias: voice.track10
+voice_track11:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track11.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track11.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track11
+voice_track12:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track12.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track12.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track12
+voice_track13:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track13.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track13.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  description: ''
+  alias: voice.track13
+voice_track14:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track14.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track14.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track14
+voice_track15:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track15.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track15.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track15
+voice_track16:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track16.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track16.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track16
+voice_track17:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track17.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track17.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track17
+voice_track18:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track18.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track18.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track18
+voice_track19:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track19.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track19.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track19
+voice_track20:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track20.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track20.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track20
+voice_track21:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track21.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track21.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track21
+voice_track22:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track22.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track22.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track22
+voice_track23:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track23.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track23.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  description: ''
+  alias: voice.track23
+voice_track24:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track24.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track24.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track24
+voice_track25:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track25.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track25.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track25
+voice_track26:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track26.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track26.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track26
+voice_track27:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track27.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track27.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track27
+voice_track28:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track28.mp3
+      media_content_type: audio/mpeg
+    metadata:
+      title: track28.mp3
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track28
+voice_track29:
+  sequence:
+  - action: media_player.clear_playlist
+    metadata: {}
+    data: {}
+    target:
+      entity_id: media_player.vlc_telnet
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.5
+    target:
+      entity_id: media_player.vlc_telnet
+      device_id: 59868b4706b8c033149029bbff2eaf53
+  - action: media_player.play_media
+    target:
+      entity_id: media_player.vlc_telnet
+    data:
+      media_content_id: media-source://media_source/local/mpd/voice/track29.wav
+      media_content_type: audio/x-wav
+    metadata:
+      title: track29.wav
+      thumbnail:
+      media_class: music
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: app
+        media_content_id: media-source://media_source
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd
+      - media_content_type: ''
+        media_content_id: media-source://media_source/local/mpd/voice
+  description: ''
+  alias: voice.track29
+mpd_vol_80:
+  sequence:
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 0.8
+    target:
+      entity_id: media_player.music_player_daemon
+  alias: MPD_vol_80
+  description: ''

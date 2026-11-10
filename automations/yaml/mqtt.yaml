@@ -1,0 +1,980 @@
+- switch:
+    name: "Magnet1"
+    state_topic: "rls/status/r01"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m01v1"
+    payload_off: "m01v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet2"
+    state_topic: "rls/status/r02"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m02v1"
+    payload_off: "m02v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet3"
+    state_topic: "rls/status/r03"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m03v1"
+    payload_off: "m03v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet4"
+    state_topic: "rls/status/r04"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m04v1"
+    payload_off: "m04v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet5"
+    state_topic: "rls/status/r05"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m05v1"
+    payload_off: "m05v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet6"
+    state_topic: "rls/status/r06"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m06v1"
+    payload_off: "m06v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet7"
+    state_topic: "rls/status/r07"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m07v1"
+    payload_off: "m07v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet8"
+    state_topic: "rls/status/r08"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m08v1"
+    payload_off: "m08v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet9"
+    state_topic: "rls/status/r09"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m09v1"
+    payload_off: "m09v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet10"
+    state_topic: "rls/status/r10"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m10v1"
+    payload_off: "m10v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet11"
+    state_topic: "rls/status/r11"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m11v1"
+    payload_off: "m11v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet12"
+    state_topic: "rls/status/r12"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m12v1"
+    payload_off: "m12v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet13"
+    state_topic: "rls/status/r13"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m13v1"
+    payload_off: "m13v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet14"
+    state_topic: "rls/status/r14"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m14v1"
+    payload_off: "m14v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet15"
+    state_topic: "rls/status/r15"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m15v1"
+    payload_off: "m15v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet16"
+    state_topic: "rls/status/r16"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m16v1"
+    payload_off: "m16v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet17"
+    state_topic: "rls/status/r17"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m17v1"
+    payload_off: "m17v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+- switch:
+    name: "Magnet18"
+    state_topic: "rls/status/r18"
+    command_topic: "rls/commands"
+    availability:
+      topic: "rls/status"
+      payload_available: "online"
+    payload_on: "m18v1"
+    payload_off: "m18v0"
+    state_on: "1"
+    state_off: "0"
+    qos: 1
+    retain: false
+
+
+- sensor:
+    name: "Sensor 1"
+    state_topic: "mux/status/b01"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+      
+- sensor:
+    name: "Sensor 2"
+    state_topic: "mux/status/b02"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+  
+- sensor:
+    name: "Sensor 3"
+    state_topic: "mux/status/b03"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+  
+- sensor:
+    name: "Sensor 4"
+    state_topic: "mux/status/b04"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Sensor 5"
+    state_topic: "mux/status/b05"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Sensor 6"
+    state_topic: "mux/status/b06"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+      
+- sensor:
+    name: "Sensor 7"
+    state_topic: "mux/status/b07"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+  
+- sensor:
+    name: "Sensor 8"
+    state_topic: "mux/status/b08"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+  
+- sensor:
+    name: "Sensor 9"
+    state_topic: "mux/status/b09"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Sensor 10"
+    state_topic: "mux/status/b10"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Sensor 11"
+    state_topic: "mux/status/b11"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+      
+- sensor:
+    name: "Sensor 12"
+    state_topic: "mux/status/b12"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+ 
+- sensor:
+    name: "Sensor 13"
+    state_topic: "mux/status/b13"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+  
+- sensor:
+    name: "Sensor 14"
+    state_topic: "mux/status/b14"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Sensor 15"
+    state_topic: "mux/status/b15"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+#- sensor:
+#    name: "Sensor 16"
+#    state_topic: "mux/status/b16"
+#    availability:
+#      topic: "pwm/status"
+#      payload_available: "online"
+
+- sensor:
+    name: "Toys 1"
+    state_topic: "utility/toys/b1"
+    availability:
+      topic: "toys/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Toys 2"
+    state_topic: "utility/toys/b2"
+    availability:
+      topic: "toys/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Toys 3"
+    state_topic: "utility/toys/b3"
+    availability:
+      topic: "toys/status"
+      payload_available: "online"
+
+- sensor:
+    name: "Toys 4"
+    state_topic: "utility/toys/b4"
+    availability:
+      topic: "toys/status"
+      payload_available: "online"
+
+- light:
+    name: "Light1"
+    state_topic: "pwm/status/b01"
+    command_topic: "pwm/commands/b01"
+    brightness_state_topic: 'pwm/status_br/b01'
+    brightness_command_topic: 'pwm/brightness/b01'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light2"
+    state_topic: "pwm/status/b02"
+    command_topic: "pwm/commands/b02"
+    brightness_state_topic: 'pwm/status_br/b02'
+    brightness_command_topic: 'pwm/brightness/b02'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light3"
+    state_topic: "pwm/status/b03"
+    command_topic: "pwm/commands/b03"
+    brightness_state_topic: 'pwm/status_br/b03'
+    brightness_command_topic: 'pwm/brightness/b03'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light4"
+    state_topic: "pwm/status/b04"
+    command_topic: "pwm/commands/b04"
+    brightness_state_topic: 'pwm/status_br/b04'
+    brightness_command_topic: 'pwm/brightness/b04'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light5"
+    state_topic: "pwm/status/b05"
+    command_topic: "pwm/commands/b05"
+    brightness_state_topic: 'pwm/status_br/b05'
+    brightness_command_topic: 'pwm/brightness/b05'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light6"
+    state_topic: "pwm/status/b06"
+    command_topic: "pwm/commands/b06"
+    brightness_state_topic: 'pwm/status_br/b06'
+    brightness_command_topic: 'pwm/brightness/b06'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light7"
+    state_topic: "pwm/status/b07"
+    command_topic: "pwm/commands/b07"
+    brightness_state_topic: 'pwm/status_br/b07'
+    brightness_command_topic: 'pwm/brightness/b07'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light8"
+    state_topic: "pwm/status/b08"
+    command_topic: "pwm/commands/b08"
+    brightness_state_topic: 'pwm/status_br/b08'
+    brightness_command_topic: 'pwm/brightness/b08'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light9"
+    state_topic: "pwm/status/b09"
+    command_topic: "pwm/commands/b09"
+    brightness_state_topic: 'pwm/status_br/b09'
+    brightness_command_topic: 'pwm/brightness/b09'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light10"
+    state_topic: "pwm/status/b10"
+    command_topic: "pwm/commands/b10"
+    brightness_state_topic: 'pwm/status_br/b10'
+    brightness_command_topic: 'pwm/brightness/b10'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light11"
+    state_topic: "pwm/status/b11"
+    command_topic: "pwm/commands/b11"
+    brightness_state_topic: 'pwm/status_br/b11'
+    brightness_command_topic: 'pwm/brightness/b11'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light12"
+    state_topic: "pwm/status/b12"
+    command_topic: "pwm/commands/b12"
+    brightness_state_topic: 'pwm/status_br/b12'
+    brightness_command_topic: 'pwm/brightness/b12'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light13"
+    state_topic: "pwm/status/b13"
+    command_topic: "pwm/commands/b13"
+    brightness_state_topic: 'pwm/status_br/b13'
+    brightness_command_topic: 'pwm/brightness/b13'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light14"
+    state_topic: "pwm/status/b14"
+    command_topic: "pwm/commands/b14"
+    brightness_state_topic: 'pwm/status_br/b14'
+    brightness_command_topic: 'pwm/brightness/b14'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light15"
+    state_topic: "pwm/status/b15"
+    command_topic: "pwm/commands/b15"
+    brightness_state_topic: 'pwm/status_br/b15'
+    brightness_command_topic: 'pwm/brightness/b15'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- light:
+    name: "Light16"
+    state_topic: "pwm/status/b16"
+    command_topic: "pwm/commands/b16"
+    brightness_state_topic: 'pwm/status_br/b16'
+    brightness_command_topic: 'pwm/brightness/b16'
+    qos: 0
+    payload_on: "1"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+
+# Переключатель основного света 2к
+- light:
+    name: "LightK21"
+    state_topic: "pwm/status_br/b03"
+    command_topic: "pwm/brightness/b03"
+    qos: 0
+    payload_on: "25"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+# Переключатель основного света 3к
+- light:
+    name: "LightK31"
+    state_topic: "pwm/status_br/b15"
+    command_topic: "pwm/brightness/b15"
+    qos: 0
+    payload_on: "25"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+# Переключатель лампочки в 3к
+- light:
+    name: "LightK32"
+    state_topic: "pwm/status_br/b07"
+    command_topic: "pwm/brightness/b07"
+    qos: 0
+    payload_on: "5"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+#Переключатель света в 4к
+- light:
+    name: "LightK41"
+    state_topic: "pwm/status_br/b06"
+    command_topic: "pwm/brightness/b06"
+    qos: 0
+    payload_on: "25"
+    payload_off: "0"
+    retain: false
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "toys.script1.offLed"
+    command_topic: "toys/script"
+    payload_press: "2"
+    availability:
+      topic: "toys/status"
+      payload_available: "online"
+
+
+
+- button:
+    name: "nodered.script1.full_on_light"
+    command_topic: "nodered/script"
+    payload_press: "1"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script2.full_off_light"
+    command_topic: "nodered/script"
+    payload_press: "2"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script3.start_magnets"
+    command_topic: "nodered/script"
+    payload_press: "3"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script4.zapusk_players"
+    command_topic: "nodered/script"
+    payload_press: "4"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script5.start_and_screamer"
+    command_topic: "nodered/script"
+    payload_press: "5"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script6.reset_quest"
+    command_topic: "nodered/script"
+    payload_press: "6"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script11.acter_3k_end"
+    command_topic: "nodered/script"
+    payload_press: "11"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script12.acter_3k_lights_on"
+    command_topic: "nodered/script"
+    payload_press: "12"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script14.players_in_4k"
+    command_topic: "nodered/script"
+    payload_press: "14"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script15.light_on_4k"
+    command_topic: "nodered/script"
+    payload_press: "15"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script16.light_off_4k"
+    command_topic: "nodered/script"
+    payload_press: "16"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script19.players_exit"
+    command_topic: "nodered/script"
+    payload_press: "19"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script20.end_quest"
+    command_topic: "nodered/script"
+    payload_press: "20"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script21.345lights"
+    command_topic: "nodered/script"
+    payload_press: "21"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script22.blinklazon"
+    command_topic: "nodered/script"
+    payload_press: "22"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "nodered.script23.blinklazoff"
+    command_topic: "nodered/script"
+    payload_press: "23"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "pwm.script2.flashing_3k_4k_on"
+    command_topic: "pwm/script"
+    payload_press: "2"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "pwm.script3.flashing_3k_4k_off"
+    command_topic: "pwm/script"
+    payload_press: "3"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "pwm.script4.flashing4k_on"
+    command_topic: "pwm/script"
+    payload_press: "4"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "pwm.script5.flashing4k_off"
+    command_topic: "pwm/script"
+    payload_press: "5"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "pwm.script6.flashinglaz_on"
+    command_topic: "pwm/script"
+    payload_press: "6"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "pwm.script7.flashinglaz_off"
+    command_topic: "pwm/script"
+    payload_press: "7"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "uv.button.reset"
+    command_topic: "nodered/script"
+    payload_press: "40"
+    availability:
+      topic: "pwm/status"
+      payload_available: "online"
+
+- button:
+    name: "quest.skip30"
+    command_topic: "nodered/script"
+    payload_press: "30"
+
+- button:
+    name: "quest.skip31"
+    command_topic: "nodered/script"
+    payload_press: "31"
+
+- button:
+    name: "quest.skip32"
+    command_topic: "nodered/script"
+    payload_press: "32"
+
+- button:
+    name: "quest.skip33"
+    command_topic: "nodered/script"
+    payload_press: "33"
+
+- button:
+    name: "quest.skip34"
+    command_topic: "nodered/script"
+    payload_press: "34"
+
+- button:
+    name: "quest.skip35"
+    command_topic: "nodered/script"
+    payload_press: "35"
+
+- button:
+    name: "quest.skip36"
+    command_topic: "nodered/script"
+    payload_press: "36"
+
+- button:
+    name: "quest.skip37"
+    command_topic: "nodered/script"
+    payload_press: "37"
+
+- button:
+    name: "quest.skip38"
+    command_topic: "nodered/script"
+    payload_press: "38"
+
+- button:
+    name: "quest.skip39"
+    command_topic: "nodered/script"
+    payload_press: "39"
+
+- sensor:
+    name: "quest.status"
+    state_topic: "quest/status"
+
+- sensor:
+    name: "paint1.status"
+    state_topic: "utility/paint/p1"
+
+- sensor:
+    name: "paint2.status"
+    state_topic: "utility/paint/p2"
+
+- sensor:
+    name: "clock1"
+    state_topic: "utility/clock/c1"
+
+- sensor:
+    name: "clock2"
+    state_topic: "utility/clock/c2"
+
+- sensor:
+    name: "clock3"
+    state_topic: "utility/clock/c3"
+
+- sensor:
+    name: "clock4"
+    state_topic: "utility/clock/c4"
+
+- sensor:
+    name: "clock5"
+    state_topic: "utility/clock/c5"
+
+- sensor:
+    name: "clock6"
+    state_topic: "utility/clock/c6"
+
+- sensor:
+    name: "switch1"
+    state_topic: "utility/switch/s1"
+
+- sensor:
+    name: "switch2"
+    state_topic: "utility/switch/s2"
+
+- sensor:
+    name: "switch3"
+    state_topic: "utility/switch/s3"
+
+- sensor:
+    name: "switch4"
+    state_topic: "utility/switch/s4"
+
+- sensor:
+    name: "nomer"
+    state_topic: "telephone/status"
+
+- sensor:
+    name: "knife"
+    state_topic: "mux/status/b02"
+
+- sensor:
+    name: "uv.satus"
+    state_topic: "uv/status"
+
+
+
